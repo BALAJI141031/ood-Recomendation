@@ -3,15 +3,21 @@ import { useState } from "react";
 
 var southList = [
   { food: "biriyani", rating: "3.8/5" },
-  { food: "Idli&Sambar", rating: "4.3/5" }
+  { food: "Idli&Sambar", rating: "4.3/5" },
+  { food: "Idli&Sambar", rating: "4.3/5" },
+  { food: "vada pav", rating: "4.2/5" }
 ];
 var northList = [
   { food: "pav baji", rating: "3.2/5" },
+  { food: "vada pav", rating: "4.2/5" },
+  { food: "Idli&Sambar", rating: "4.3/5" },
   { food: "vada pav", rating: "4.2/5" }
 ];
 var southEastList = [
   { food: "chicken roast", rating: "4.5/5" },
-  { food: "Tomatorice", rating: "4.1/5" }
+  { food: "Tomatorice", rating: "4.1/5" },
+  { food: "Idli&Sambar", rating: "4.3/5" },
+  { food: "vada pav", rating: "4.2/5" }
 ];
 export default function App() {
   var [state, updateState] = useState(southList);
